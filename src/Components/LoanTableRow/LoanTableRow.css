@@ -1,0 +1,45 @@
+.loan-table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f2f4f7;
+}
+.loan-table-row.heading-row {
+  border-bottom: 1px solid #e6eff5;
+  padding: 22px 0 11px 0;
+}
+.loan-table-row.total-row {
+  border-bottom: none;
+  padding: 15px 0 21px 0;
+}
+.heading-row .cell {
+  font-weight: 500;
+  color: #718ebf;
+}
+.total-row .cell {
+  font-weight: 500;
+  color: #fe5c73;
+}
+.cell {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+  color: #232323;
+}
+.repay-btn {
+  background-color: #fff;
+  color: #232323;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid #232323;
+}
+.repay-btn:hover {
+  border-color: #1814f3;
+  color: #1814f3;
+}

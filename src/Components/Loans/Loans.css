@@ -1,0 +1,21 @@
+.top-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #333b69;
+  margin: 24px 0 15px 0;
+}
+.loan-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.total-row .repay-btn {
+  visibility: hidden;
+}
